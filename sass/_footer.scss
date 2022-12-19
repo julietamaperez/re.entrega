@@ -1,0 +1,70 @@
+footer {
+    background-color: #8DA3F6;
+    padding: 0;
+    width: 100%;
+}
+
+.grupo-1 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    padding: 45px 0px;
+}
+
+.grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grupo-1 .box figure img {
+    width: 150px;
+}
+
+.grupo-1 .box h6 {
+    color: white;
+    margin-bottom: 25px;
+    font-size: 20px;
+
+}
+
+.grupo-1 .box p {
+    color: #efefef;
+    margin-bottom: 10px;
+}
+
+.grupo-1 .box .redsocial a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    margin-right: 10px;
+    text-align: justify;
+    transition: all 300ms ease;
+}
+
+.grupo-1 .box .redsocial a:hover {
+    color: #D907A1;
+}
+
+.grupo2derechosreservados {
+    background-color: #96a8e8;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.color-barra {
+    background: #8DA3F6;
+}
+
+.grupo2derechosreservados {
+    font-size: 15px;
+}
